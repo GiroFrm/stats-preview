@@ -82,12 +82,13 @@
   .c-card{
     outline: 3px solid red;
     border-radius: 0.5rem;
+    text-align: center;
     }
 
     .l-item{
      position: relative;
     }
-    
+
    .c-card__image{
     
    }
@@ -99,4 +100,10 @@
    width: 100%;
    height: 100%;
    background-color: var(--clr-accent-hsla);
+   }
+
+   .c-card__title{
+    font-size: 1.75rem;
+    font-weight: var(--fw-bold);
+    line-height: 2rem;
    }
