@@ -75,15 +75,17 @@
     font-family: var(--ff-base);
     font-size: var(--fs-100);
     padding: 88px 24px;
-    height: 100vh;
+    background-color: var(--clr-primary-hsl);
+  
 
   }
 
   .c-card{
-    outline: 3px solid red;
+    color:var(--clr-neutral-80);
     border-radius: 0.5rem;
     text-align: center;
-    }
+    background-color: var(--clr-secondary-hsl);
+     }
 
     .l-item{
      position: relative;
@@ -102,8 +104,50 @@
    background-color: var(--clr-accent-hsla);
    }
 
+  .l-right{
+  display: grid;
+  gap:2.5rem;   
+
+  }
+
+
    .c-card__title{
     font-size: 1.75rem;
     font-weight: var(--fw-bold);
     line-height: 2rem;
+    margin-bottom: 1rem;
+    color:var(--clr-neutral-100);
+
+   }
+
+   .c-card__descr{
+
+   }
+
+   .c-card__cue{
+    color:var(--clr-accent-hsl)
+   }
+
+   .l-right{
+    padding: 2.5rem 2rem;
+   }
+
+   .c-stats{
+    display:grid;
+    gap: 1.5rem;
+    
+   }
+
+   .c-stats__value{
+    color:var(--clr-neutral-100);
+    display:block;
+    font-size:1.5rem;
+    font-weight: var(--fw-bold);
+   }
+
+   .c-stats__label{
+    font-size: 0.75rem;
+    font-family: var(--ff-accent);
+    font-weight: 300;
+    letter-spacing: 1px;
    }
